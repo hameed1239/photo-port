@@ -1,6 +1,6 @@
 import React, {useState} from "react";
 import { validateEmail } from '../../utils/helpers';
-function ContactFrom() {
+function ContactForm() {
     //JSX
     //useState Hook
     const computedName = "name"
@@ -32,7 +32,7 @@ function ContactFrom() {
 
     return (
         <section>
-            <h1>Contact me</h1>
+            <h1 data-testid = "form-header">Contact me</h1>
             <form id="contact-form" onSubmit = {handleSubmit}>
                 <div>
                     <label htmlFor = "name">Name:</label>
@@ -58,4 +58,4 @@ function ContactFrom() {
     );
 }
 
-export default ContactFrom
+export default ContactForm
