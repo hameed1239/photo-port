@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React, {useState, useEffect} from "react";
 import { validateEmail } from '../../utils/helpers';
 function ContactForm() {
     //JSX
@@ -22,8 +22,12 @@ function ContactForm() {
         if (!errorMessage) {
             setFormState({ ...formState, [e.target.name]: e.target.value });
         }
-        console.log(formState);
+        
     }
+    useEffect(() => {
+        console.log(formState)
+    })
+
     function handleSubmit(e) {
         e.preventDefault();
         console.log(formState);
@@ -40,7 +44,7 @@ function ContactForm() {
                 </div>
                 <div>
                     <label htmlFor="email">Email address:</label>
-                    <input type="email" defaultValue={email} onBlur={handleChange} name="email" />
+                    <input type="email" defaultValue={email} onChange={handleChange} name="email" />
                 </div>
                 <div>
                     <label htmlFor="message">Message:</label>
