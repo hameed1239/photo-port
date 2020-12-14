@@ -46,7 +46,7 @@ You can contribute to this project by creating issues on this repository
 
 ## Test
 
-Link to app: [Photo port](https://photo-port-hameed1239.herokuapp.com/)
+Link to app: [Photo port](https://hameed1239.github.io/photo-port/)
 
 Screenshots:
 ![Screenshot](/public/assets/images/Capture1.JPG)
