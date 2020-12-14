@@ -40,7 +40,7 @@ This Application should only be used for personal projects. You may not sell thi
 
 [Hameed1239](https://github.com/hameed1239)
 
-## Contributing
+## Contribution
 
 You can contribute to this project by creating issues on this repository
 
