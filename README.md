@@ -49,7 +49,7 @@ You can contribute to this project by creating issues on this repository
 Link to app: [Photo port](https://photo-port-hameed1239.herokuapp.com/)
 
 Screenshots:
-![Screenshot](/public/assets/images/Capture1.PNG)
+![Screenshot](/public/assets/images/Capture1.JPG)
 
 ## Questions
 
